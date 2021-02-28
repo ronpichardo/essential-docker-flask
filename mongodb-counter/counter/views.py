@@ -12,7 +12,7 @@ def init():
     counter.save()
   else:
     counter = Counter()
-    counter.counte = 1
+    counter.count = 1
     counter.save()
 
   return '<h2>Counter: ' + str(counter.count) + '</h2>'
