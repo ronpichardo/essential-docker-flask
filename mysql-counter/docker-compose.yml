@@ -6,7 +6,7 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - /home/ronaldy/isos/mydocker/essential-docker/mysql-counter:/counter_app
+      - /opt/mysql-counter:/counter_app
     links:
       # container will see it as mysql, but to us it is db container
       - db:mysql
