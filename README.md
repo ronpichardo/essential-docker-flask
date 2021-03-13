@@ -4,17 +4,21 @@ Udemy tutorial which helped with creating two separate apps, one running mysql d
 
 This is from a tutorial in 2016, will work to update these files to the current versions.
 
-## Requirements
-```shell
-Docker for Linux, Mac or Windows
-Docker-Compose
-Python 3.4 (To be updated for 3.6+)
-```
+Currently updated - Requirement files for both projects, next will be running the applications and confirming functionality
 
-##
-Installation of the following tools
+## Requirements
+- Docker for your platform (Linux, Mac or Windows)
+- Docker-Compose
+- Python3
+
+
+## Installation of the following tools
 - Docker - https://docs.docker.com/get-docker/
 - Docker-Composee - https://docs.docker.com/compose/install/
 - Python3.9.2 - Latest version available as of 3/2/2021 - https://www.python.org/downloads/release/python-392/
 
-
+## Usage
+TODO:
+- Running locally before creating a docker container
+- Building of the docker container
+- Running the docker container of the application
