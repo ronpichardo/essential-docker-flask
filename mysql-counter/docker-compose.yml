@@ -1,4 +1,4 @@
-version: "2"
+version: "3"
 services:
   web:
     # This build . means to build the dockerfile found in here
@@ -10,15 +10,15 @@ services:
     links:
       # container will see it as mysql, but to us it is db container
       - db:mysql
-    container_name: counterapp_web_1
+    container_name: countersql_web_1
     # tells order of build, so build db first
     depends_on:
       - db
     
   db:
-    image: mysql:5.7
+    image: mysql
     restart: always
-    container_name: counterapp_db_1
+    container_name: countersql_db_1
     environment:
       MYSQL_ROOT_PASSWORD: rootpass
       MYSQL_DATABASE: counter

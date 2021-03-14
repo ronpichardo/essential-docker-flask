@@ -1,4 +1,4 @@
-FROM python:3.4.5-slim
+FROM python:3.9.2-slim
 
 RUN mkdir /counter_app
 
